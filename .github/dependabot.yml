@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/vite-vanilla"
+    target-branch: "main"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "/vite-vue"
+    target-branch: "main"
+    schedule:
+      interval: "weekly"
+
