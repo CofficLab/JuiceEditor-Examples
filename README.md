@@ -2,6 +2,8 @@
 
 This project demonstrates how to integrate JuiceEditor into common development frameworks.
 
+![JuiceEditor](./docs/hero.png)
+
 ## Quick Start
 
 1. Clone the repository
