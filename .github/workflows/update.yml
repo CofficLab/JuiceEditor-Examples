@@ -29,6 +29,10 @@ jobs:
           cd vite-vue
           pnpm update
           pnpm run build
+      - name: Update Hero Picture
+        run: |
+          git clone https://github.com/CofficLab/JuiceEditor
+          cp -f JuiceEditor/docs/hero.png ./docs/hero.png
       - name: Commit
         run: |
           git config --global user.name "GitHub Action"
