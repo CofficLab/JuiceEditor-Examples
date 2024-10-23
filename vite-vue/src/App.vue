@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { defineJuiceEditor, EventName, EventType } from '@coffic/juice-editor'
 
-window.addEventListener(EventName, (event: CustomEvent) => {
-  if (event.detail.type == EventType.editorReady) {
+window.addEventListener(EventName, (event: Event) => {
+  const customEvent = event as CustomEvent
+  if (customEvent.detail.type == EventType.editorReady) {
     console.log('editor ready');
     (window as any).api.node.setHTML('Hello World')
   }
