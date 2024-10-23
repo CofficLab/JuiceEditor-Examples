@@ -22,6 +22,10 @@ For detailed integration documentation, please refer to the [official documentat
 - [JuiceEditor-Playground](https://github.com/cofficlab/JuiceEditor-Playground)
 - [JuiceEditor-Examples](https://github.com/cofficlab/JuiceEditor-Examples)
 
+## About the Author
+
+Work for Joy & Live for Love ➡️ <https://github.com/nookery>
+
 ## Contributing
 
 PRs and Issues are welcome.
