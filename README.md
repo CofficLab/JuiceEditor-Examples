@@ -20,6 +20,7 @@ For detailed integration documentation, please refer to the [official documentat
 - [JuiceEditor](https://github.com/CofficLab/JuiceEditor)
 - [JuiceEditor-Draw](https://github.com/CofficLab/JuiceEditor-Draw)
 - [JuiceEditor-Playground](https://github.com/cofficlab/JuiceEditor-Playground)
+- [JuiceEditor-SwiftUI](https://github.com/cofficlab/JuiceEditorKit)
 - [JuiceEditor-Examples](https://github.com/cofficlab/JuiceEditor-Examples)
 
 ## Maintainers
