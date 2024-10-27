@@ -4,9 +4,8 @@ import editor from '@coffic/juice-editor'
 editor.onCreate(() => {
   console.log('editor created')
 
-  editor.setHtml('Hello World')
+  editor.setContent('Hello World')
 })
-
 
 </script>
 
