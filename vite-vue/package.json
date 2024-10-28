@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@coffic/juice-editor": "^0.9.97",
+    "@coffic/juice-editor": "^0.9.98",
     "vue": "^3.5.12"
   },
   "devDependencies": {
