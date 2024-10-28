@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import editor from '@coffic/juice-editor'
+import { Editor, EditorFactory } from '@coffic/juice-editor'
 
-editor.onCreate(() => {
-  console.log('editor created')
+EditorFactory.register('juice-editor', {
+  onCreate: (editor: Editor) => {
+    console.log('editor created')
 
-  editor.setContent('Hello World')
+    editor.setContent('Hello World')
+  }
 })
 
 </script>

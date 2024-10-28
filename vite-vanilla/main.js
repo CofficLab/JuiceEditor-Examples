@@ -1,6 +1,10 @@
 import './style.css';
-import editor from '@coffic/juice-editor';
+import { EditorFactory } from '@coffic/juice-editor';
 
-editor.onCreate(() => {
-  editor.setHtml('<h1>Hello World</h1><p>Hello World</p>');
+EditorFactory.register('juice-editor', {
+  onCreate: (editor) => {
+    console.log('editor created');
+
+    editor.setContent('Hello World');
+  },
 });
