@@ -12,6 +12,6 @@
     "vite": "^5.4.11"
   },
   "dependencies": {
-    "@coffic/juice-editor": "^0.9.105"
+    "@coffic/juice-editor": "^0.9.106"
   }
 }
