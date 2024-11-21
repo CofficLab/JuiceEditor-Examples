@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@coffic/juice-editor':
-        specifier: ^0.9.112
-        version: 0.9.112(sass@1.80.3)(terser@5.36.0)
+        specifier: ^0.9.113
+        version: 0.9.113(sass@1.80.3)(terser@5.36.0)
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.6.3)
@@ -51,8 +51,8 @@ packages:
     resolution: {integrity: sha512-Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==}
     engines: {node: '>=6.9.0'}
 
-  '@coffic/juice-editor@0.9.112':
-    resolution: {integrity: sha512-HduilcwWWhU6sbBtWYmcWaZ5WidA5wXVV5LvhwtRN+rn0DyYiigBIIU66qLbGdoteJujiu2zsUPZ9ZDDoM9CYA==}
+  '@coffic/juice-editor@0.9.113':
+    resolution: {integrity: sha512-/uUPbl2ruXZSJVOUMJIDgsqEd9i4nVJXgJvwxq+yQ0bAWzjMClEePNsNjPJaVvDnhKRd7RU54XrG6KqgsejMXQ==}
 
   '@csstools/selector-resolve-nested@1.1.0':
     resolution: {integrity: sha512-uWvSaeRcHyeNenKg8tp17EVDRkpflmdyvbE0DHo6D/GdBb6PDnCYYU6gRpXhtICMGMcahQmj2zGxwFM/WC8hCg==}
@@ -1784,7 +1784,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@coffic/juice-editor@0.9.112(sass@1.80.3)(terser@5.36.0)':
+  '@coffic/juice-editor@0.9.113(sass@1.80.3)(terser@5.36.0)':
     dependencies:
       '@remixicon/vue': 4.5.0(vue@3.5.13(typescript@5.6.3))
       '@tailwindcss/typography': 0.5.15(tailwindcss@3.4.15)
